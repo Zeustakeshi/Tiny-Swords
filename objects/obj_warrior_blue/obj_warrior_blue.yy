@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_warrior_blue",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_warrior_blue",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/Factions/Knights/Troops/Warrior.yy",
   },
   "parentObjectId":{
-    "name":"obj_base_troops",
-    "path":"objects/obj_base_troops/obj_base_troops.yy",
+    "name":"obj_base_knight",
+    "path":"objects/obj_base_knight/obj_base_knight.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -14,8 +14,8 @@
     "path":"folders/Objects/Factions.yy",
   },
   "parentObjectId":{
-    "name":"obj_base_solid",
-    "path":"objects/obj_base_solid/obj_base_solid.yy",
+    "name":"obj_base_interactive",
+    "path":"objects/obj_base_interactive/obj_base_interactive.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -13,4 +13,12 @@ if (is_selected) {
 
 }
 
+
+
+draw_set_color(c_red);
+
+draw_circle(x, y, detection_radius, true); // Đường viền
+
+
+
 draw_self()

@@ -3,7 +3,7 @@ function move_2_target(obj, target_x, target_y) {
 
     var distance = point_distance(obj.x, obj.y, target_x, target_y);
 
-    if (distance > obj.troops_speed) {
+    if (distance > 100) { 
         // Tính hướng di chuyển
         var dir = point_direction(obj.x, obj.y, target_x, target_y);
         
