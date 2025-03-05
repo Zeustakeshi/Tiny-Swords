@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"titleset_water",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":7,
+    "SerialiseWidth":14,
+    "TileCompressedData":[
+      -14,0,2,158,159,-12,0,2,209,210,-13,0,3,158,159,104,-9,105,5,106,0,209,210,155,-9,156,5,157,0,158,159,
+      155,-9,156,5,157,0,209,210,206,-9,207,1,208,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"titleset_water",
+  "out_columns":3,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Ground",
+    "path":"folders/Tile Sets/Ground.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Water",
+    "path":"sprites/Water/Water.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":20.0,
+  "tileHeight":20,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":20,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":9,
+}
