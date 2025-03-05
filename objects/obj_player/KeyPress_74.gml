@@ -1,0 +1,1 @@
+player_is_collect = true 
