@@ -15,6 +15,7 @@ is_move_down = false;
 is_idle = false;
 is_selected = false
 
+
 function base_move_left () {
 	reset_move_state()
 	is_move_left = true;

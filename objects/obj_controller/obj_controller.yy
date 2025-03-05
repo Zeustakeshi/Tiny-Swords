@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_base_troops",
+  "%Name":"obj_controller",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_base_troops",
+  "name":"obj_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Factions",
-    "path":"folders/Objects/Factions.yy",
+    "name":"Control",
+    "path":"folders/Objects/Game/Control.yy",
   },
-  "parentObjectId":{
-    "name":"obj_base_solid",
-    "path":"objects/obj_base_solid/obj_base_solid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

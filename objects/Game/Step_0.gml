@@ -1,5 +1,5 @@
 
-if (mouse_check_button_pressed(mb_left)) {
+if (mouse_check_button_pressed(mb_right)) {
 	var mouse_x_in_room = mouse_x;
     var mouse_y_in_room = mouse_y;
  
