@@ -1,4 +1,4 @@
-
+ 
 
 idle_animation = noone
 run_animation = noone
@@ -8,7 +8,7 @@ attack_left_animation = noone
 attack_right_animation = noone
 
 troops_speed = 5
-troops_scale = 1
+troops_scale = 1 
 
 
 is_move_left = false 
@@ -26,6 +26,10 @@ _room_speed = 30
 created_by = self
 
 detection_radius = 100
+
+max_health = 100
+current_health = 100
+damage = 10 
 
 
 

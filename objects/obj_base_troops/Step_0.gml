@@ -41,7 +41,10 @@ if (is_attack_right && attack_right_animation != noone) {
 }
  
 
-
+// detroy when health = 0 (is died :<)
+if (current_health == 0) {
+	instance_destroy();
+}
 
 
 

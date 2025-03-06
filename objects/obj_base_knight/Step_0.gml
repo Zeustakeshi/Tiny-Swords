@@ -50,6 +50,15 @@ if (closest_enemy != noone && closest_distance <= detection_radius) {
         is_attack_down = true;
     }
 	
+	if (image_index >= image_number - 1) { // Frame cuối cùng (index bắt đầu từ 0)
+        if (closest_enemy != noone) {
+            closest_enemy.current_health -= 10; // Trừ máu
+        }
+        image_index = 0; // Reset animation
+		closest_enemy.current_health -= 10
+    }
+	
+	
 }else {
 	is_attack_left = false;
 	is_attack_top = false;

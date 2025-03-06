@@ -128,6 +128,7 @@
     {"id":{"name":"map","path":"rooms/map/map.yy",},},
     {"id":{"name":"room_home","path":"rooms/room_home/room_home.yy",},},
     {"id":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
+    {"id":{"name":"script_draw_health_bar","path":"scripts/script_draw_health_bar/script_draw_health_bar.yy",},},
     {"id":{"name":"script_move_object","path":"scripts/script_move_object/script_move_object.yy",},},
     {"id":{"name":"script_move_player","path":"scripts/script_move_player/script_move_player.yy",},},
     {"id":{"name":"Archer_Blue_idle","path":"sprites/Archer_Blue_idle/Archer_Blue_idle.yy",},},
