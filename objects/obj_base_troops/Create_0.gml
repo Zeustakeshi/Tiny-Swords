@@ -31,6 +31,12 @@ max_health = 100
 current_health = 100
 damage = 10 
 
+target_x = -1;
+target_y = -1;
+
+my_path = path_add();
+
+path_calculated = false;
 
 
 function base_move_left () {

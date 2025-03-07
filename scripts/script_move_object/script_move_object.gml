@@ -1,4 +1,4 @@
-function move_2_target(obj, target_x, target_y) {
+function move_2_target_old(obj, target_x, target_y) {
     if (!instance_exists(obj)) return;
 
     var distance = point_distance(obj.x, obj.y, target_x, target_y);

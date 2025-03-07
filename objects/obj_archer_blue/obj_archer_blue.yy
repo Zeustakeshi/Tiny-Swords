@@ -13,8 +13,8 @@
     "path":"folders/Objects/Factions/Knights/Troops/Archer.yy",
   },
   "parentObjectId":{
-    "name":"obj_base_knight",
-    "path":"objects/obj_base_knight/obj_base_knight.yy",
+    "name":"obj_base_knight_attacker",
+    "path":"objects/obj_base_knight_attacker/obj_base_knight_attacker.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
