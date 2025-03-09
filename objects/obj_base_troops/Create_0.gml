@@ -23,9 +23,10 @@ is_attack_down = false;
 
 is_selected = false
 _room_speed = 30
-created_by = self
+created_by = noone
 
-detection_radius = 100
+base_detection_radius = 100;
+detection_radius = base_detection_radius
 
 max_health = 100
 current_health = 100
@@ -37,6 +38,9 @@ target_y = -1;
 my_path = path_add();
 
 path_calculated = false;
+
+nearest_target = noone;
+
 
 
 function base_move_left () {

@@ -16,6 +16,7 @@ function a_star_to_path(start_x, start_y, target_x, target_y, path) {
 
     // Kiểm tra nếu điểm bắt đầu hoặc đích bị chặn
     if (global.grid[# start_x_grid, start_y_grid] == 1 || global.grid[# target_x_grid, target_y_grid] == 1) {
+		
         return false;
     }
 

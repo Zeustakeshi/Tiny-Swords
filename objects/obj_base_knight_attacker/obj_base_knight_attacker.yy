@@ -12,8 +12,8 @@
     "path":"folders/Objects/Factions/Knights.yy",
   },
   "parentObjectId":{
-    "name":"obj_base_knight",
-    "path":"objects/obj_base_knight/obj_base_knight.yy",
+    "name":"obj_base_knight_troops",
+    "path":"objects/obj_base_knight_troops/obj_base_knight_troops.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_create_random_goblin",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_create_random_goblin",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

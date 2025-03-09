@@ -34,12 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Archer_Blue_idle",
-    "path":"sprites/Archer_Blue_idle/Archer_Blue_idle.yy",
+    "name":"spr_archer_blue_idle",
+    "path":"sprites/spr_archer_blue_idle/spr_archer_blue_idle.yy",
   },
   "spriteMaskId":{
-    "name":"Archer_Blue_idle",
-    "path":"sprites/Archer_Blue_idle/Archer_Blue_idle.yy",
+    "name":"spr_archer_blue_idle",
+    "path":"sprites/spr_archer_blue_idle/spr_archer_blue_idle.yy",
   },
   "visible":true,
 }

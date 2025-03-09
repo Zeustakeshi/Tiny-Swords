@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_base_knight_builder",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_base_knight_builder",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/Factions/Knights.yy",
   },
   "parentObjectId":{
-    "name":"obj_base_knight",
-    "path":"objects/obj_base_knight/obj_base_knight.yy",
+    "name":"obj_base_knight_troops",
+    "path":"objects/obj_base_knight_troops/obj_base_knight_troops.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

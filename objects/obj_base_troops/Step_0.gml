@@ -1,6 +1,6 @@
 depth = -y;
 
-
+ 
 
 if (is_move_left) {
 	move_2_target( x - troops_speed, y)
@@ -42,31 +42,20 @@ if (is_attack_right && attack_right_animation != noone) {
  
 
 // detroy when health = 0 (is died :<)
-if (current_health == 0) {
+if (current_health <= 0) {
 	instance_destroy();
+	
+	if (created_by != noone) {
+		created_by.current_troops_count--;
+	}
 }
 
-    
 
-if (path_calculated && path_position < 1) {
-    // Lấy điểm tiếp theo trong path
-    var current_index = floor(path_position * (path_get_number(my_path) - 1));
-    var next_x = path_get_point_x(my_path, current_index + 1);
-    var next_y = path_get_point_y(my_path, current_index + 1);
-    
-    // Tính hướng từ vị trí hiện tại đến điểm tiếp theo
-    var path_dir = point_direction(x, y, next_x, next_y);
-    
-    // Xác định hướng chính dựa trên giá trị lớn hơn
-    if (path_dir < 180) {
-            image_xscale = -troops_scale; // Quay phải
-            if (run_animation != noone) sprite_index = run_animation;
-    } else {
-        image_xscale = troops_scale; // Quay trái
-        if (run_animation != noone) sprite_index = run_animation;
-    }
 
-}
+
+
+
+
 
 
 
